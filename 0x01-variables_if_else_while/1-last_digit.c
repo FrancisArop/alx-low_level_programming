@@ -2,26 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 
-/* This code was written by Francis Arop on 12-12-2022 */
+/* This code was writtin by Francis on 12-12-2022 */
 /**
- * main - Entry point 
- * Return: Always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n;
+	int n;
 
-int m;
+	int m;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-m = n % 10;
-if (m > 5)
-printf("Last digit of %d is %d and is greater than 5\n", n, m);
-if (m == 0)
-printf("Last digit of %d is %d and is 0\n", n, m);
-if (m < 6 && m != 0)
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
-
-return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	m = n % 10;
+	if (m > 5)
+			printf("Last digit of %d is %d and is greater than 5\n", n, m);
+	if (m == 0)
+		printf("Last digit of %d is %d and is 0\n", n, m);
+	if (m < 6 && m != 0)
+		printf("Last digit of %d is %d and is less than 6and not 0\n", n, m);
+	return (0);
 }
