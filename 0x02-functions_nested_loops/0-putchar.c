@@ -1,4 +1,5 @@
 #include "main.h"
+#ifndef HOLBERTON_H_INCLUDE
 
 /**
  * main Entry point
