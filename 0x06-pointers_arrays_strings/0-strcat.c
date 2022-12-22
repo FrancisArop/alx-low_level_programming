@@ -8,22 +8,22 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int Yak;
+	int Arop;
 
-	i = 0;
-	while (dest[i] != '\0')
+	Yak = 0;
+	while (dest[Yak] != '\0')
 	{
-		i++;
+		Yak++;
 	}
 	j = 0;
-	while (src[j] != '\0')
+	while (src[Arop] != '\0')
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[Yak] = src[Arop];
+		Yak++;
+		Arop++;
 	}
 
-	dest[i] = '\0';
+	dest[Yak] = '\0';
 	return (dest);
 }
