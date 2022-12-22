@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		Yak++;
 	}
-	j = 0;
+	Arop = 0;
 	while (src[Arop] != '\0')
 	{
 		dest[Yak] = src[Arop];
